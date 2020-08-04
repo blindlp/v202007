@@ -1,15 +1,22 @@
 {
+<<<<<<< HEAD:omnichannel-server/package.json
   "name": "omnichannel-server",
+=======
+  "name": "@corecodeio/omnichannel-server",
+  "version": "1.0.0",
+>>>>>>> a1589af38c4f6c9d65724e92d3076745249a62c2:api/package.json
   "scripts": {
     "start:debug": "ts-node-dev --inspect=9230 --no-notify --respawn ./src"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "@corecodeio/libraries": "*"
+    "@corecodeio/libraries": "^1.0.1",
+    "apollo-server-express": "^2.16.1",
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "@types/jest": "^26.0.4",
     "jest": "^26.1.0",
+    "supertest": "^4.0.2",
     "ts-jest": "^26.1.2",
     "ts-node-dev": "^1.0.0-pre.50",
     "typescript": "^3.9.6"

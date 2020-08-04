@@ -1,4 +1,9 @@
 .env
 node_modules
 .vscode
+<<<<<<< HEAD
 lerna-degub.log
+=======
+lerna-debug.log
+.DS_Store
+>>>>>>> a1589af38c4f6c9d65724e92d3076745249a62c2
