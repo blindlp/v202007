@@ -1,3 +1,6 @@
+import styled from "styled-components";
+import { color } from "styled-system";
+
 import { TouchableOpacity, Text } from "react-native";
 import React from "react";
 
