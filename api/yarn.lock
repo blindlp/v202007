@@ -651,10 +651,12 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@corecodeio/libraries@1.0.3":
-  version "1.0.3"
-  resolved "https://npm.pkg.github.com/download/@corecodeio/libraries/1.0.3/c89c26b0ab03be7ffc033c8dccbd5f13cd5808236b587c45d74f0d2980557a37#be7b670a737c18a3b2c44a2c1ed2e22134dfd1af"
-  integrity sha512-4L7ApSX8rA9hzmc65gA7LkaAzhUeZH4iOa9J47nbFV1JZ01Ok0qhKzHPYHPdA3Lv4Bxwee29pzQOLCqQHrqsPQ==
+"@corecodeio/libraries@^1.0.5":
+  version "1.0.5"
+  resolved "https://npm.pkg.github.com/download/@corecodeio/libraries/1.0.5/29b2a406b765654e6029f384e9a9065c0d60f76e68962a2cd3074964ff96ca48#f363ca8dda179ad983db92a3f446fddebf2944ef"
+  integrity sha512-MbfVN7gIC1ePCODG4Wi8d052/oQkU7kJDfMlK1aH3W1JlXnoJDE6DhtlB811rB1xAWkQ8PKdvBDcnFcNlkcDwQ==
+  dependencies:
+    graphql-tag "^2.11.0"
 
 "@graphql-codegen/cli@^1.17.7":
   version "1.17.7"
@@ -3588,7 +3590,7 @@ graphql-subscriptions@^1.0.0:
   dependencies:
     iterall "^1.2.1"
 
-graphql-tag@2.11.0, graphql-tag@^2.9.2:
+graphql-tag@2.11.0, graphql-tag@^2.11.0, graphql-tag@^2.9.2:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.11.0.tgz#1deb53a01c46a7eb401d6cb59dec86fa1cccbffd"
   integrity sha512-VmsD5pJqWJnQZMUeRwrDhfgoyqcfwEkvtpANqcoUG8/tOLkwNgU9mzub/Mc78OJMhHjx7gfAMTxzdG43VGg3bA==
