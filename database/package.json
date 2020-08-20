@@ -1,0 +1,16 @@
+{
+  "name": "@corecodeio/database",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/corecodeio/v202007/",
+  "author": "@corecodeio",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@prisma/cli": "^2.4.1",
+    "@types/node": "^14.6.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.5.0"
+  }
+}

@@ -5,7 +5,12 @@ export const schema = gql`
     sendPhoneNumberVerificationCode(
       input: SendPhoneNumberVerificatioCodeInput!
     ): Boolean!
-    verifyPhoneNumberCode(input: VerifyPhoneNumberCodeInput!): Boolean!
+  }
+
+  type Mutation {
+    verifyPhoneNumberCode(
+      input: VerifyPhoneNumberCodeInput!
+    ): OnboardingSession!
   }
 
   input SendPhoneNumberVerificatioCodeInput {
@@ -15,5 +20,9 @@ export const schema = gql`
   input VerifyPhoneNumberCodeInput {
     phoneNumber: String!
     code: String!
+  }
+
+  type OnboardingSession {
+    token: String!
   }
 `;

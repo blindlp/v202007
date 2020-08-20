@@ -4,4 +4,9 @@ node_modules
 lerna-debug.log
 .DS_Store
 dist/
+<<<<<<< HEAD
 api/yarn-error.log
+=======
+corecodeio.jwt
+corecodeio.jwt.pub
+>>>>>>> 9cf932e0b3f3c5b7d2c5a7c92c17b6a472a7e1ef

@@ -44,6 +44,48 @@ const config = convict({
       arg: "twilio-auth-token",
     },
   },
+
+  jwt: {
+    algorithm: {
+      doc: "The algorithm to use for signing tokens",
+      format: ["HS256", "HS384", "HS512"],
+      default: "HS256",
+      env: "JWT_ALGORITHM",
+      arg: "jwt-algorithm",
+    },
+
+    issuer: {
+      doc: "Token issuer",
+      format: "String",
+      default: "CORECODEIO",
+      env: "JWT_ISSUER",
+      arg: "jwt-issuer",
+    },
+
+    audience: {
+      doc: "Token audience",
+      format: "url",
+      default: "https://api.core-code.io",
+      env: "JWT_AUDIENCE",
+      arg: "jwt-audience",
+    },
+
+    privateKey: {
+      doc: "Base64 encoded secret used for verifying the token",
+      format: "String",
+      default: null,
+      env: "JWT_PRIVATE_KEY",
+      arg: "jwt-private-key",
+    },
+
+    publicKey: {
+      doc: "Base64 encoded public key used for verifying the token",
+      format: "String",
+      default: null,
+      env: "JWT_PUBLIC_KEY",
+      arg: "jwt-public-key",
+    },
+  },
 });
 
 export default config;
